@@ -4,12 +4,6 @@
 
 // 1.# Faylning to'liq nomini o'zida akslantirgan satr berilgan. Ya'ni disk nomi, papkalar nomi, faylning nomi va kengaytmasi. Satrdan faylning nomini (kengaytmasiz) aniqlovchi programma tuzilsin.
 
-//
-
-//
-
-///
-
 ///
 //
 
@@ -101,16 +95,18 @@
 // console.log(arr);
 
 // 7.Satrni bo'sh joy bor yoki yo'qligini tekshiring.(split, some)
-// Input: "Men Abdulaziz Programmerman"
-// Output: true
+const text = "Men Abdulaziz Programmerman";
 
+const allSplit = text.split(" ").some((word) => {
+  if (word.includes("")) {
+    console.log(true);
+  } else {
+    console.log(false);
+  }
+});
+///
 
-
-// const splitText = text.split(" ");
-// console.log(splitText);
-// const allSplit = splitText.some((word) => word.includes(""));
-
-console.log(newArray);
+///
 
 // 8.Necha kishi imtihondan o'tdi va necha kishi imtihonda o'ta olmadi shuni ham hisoblang. (reduce)
 
