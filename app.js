@@ -104,22 +104,6 @@
 // Input: "Men Abdulaziz Programmerman"
 // Output: true
 
-function tekshirishSatrBo'shJoy(input) {
-  // Satrni bo'sh joylar orqali ajratib olish
-  var so'zlar = input.split(' ');
-
-  // "some" metodi orqali bo'sh joy borligini tekshirish
-  var boShJoyBor = so'zlar.some(function(so'z) {
-    return so'z === '';
-  });
-
-  return boShJoyBor;
-}
-
-// Misolni tekshirish
-var inputSatr = "Men Abdulaziz Programmerman";
-var natija = tekshirishSatrBo'shJoy(inputSatr);
-console.log(natija);  // Output: false
 
 
 // const splitText = text.split(" ");
