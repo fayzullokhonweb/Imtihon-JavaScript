@@ -95,15 +95,15 @@
 // console.log(arr);
 
 // 7.Satrni bo'sh joy bor yoki yo'qligini tekshiring.(split, some)
-const text = "Men Abdulaziz Programmerman";
+// const text = "Men Abdulaziz Programmerman";
 
-const allSplit = text.split(" ").some((word) => {
-  if (word.includes("")) {
-    console.log(true);
-  } else {
-    console.log(false);
-  }
-});
+// const allSplit = text.split(" ").some((word) => {
+//   if (word.includes("")) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// });
 ///
 
 ///
